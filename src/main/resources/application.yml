@@ -1,0 +1,5 @@
+opensubtitles:
+    username: ${OS_USERNAME}
+    password: ${OS_PASSWORD}
+    baseUrl: http://api.opensubtitles.org/xml-rpc
+    userAgent: ${USER_AGENT}
