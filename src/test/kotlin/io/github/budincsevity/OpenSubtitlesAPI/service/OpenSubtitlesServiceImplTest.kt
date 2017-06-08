@@ -14,9 +14,6 @@ import org.testng.Assert.assertEquals
 import org.testng.annotations.BeforeMethod
 import org.testng.annotations.Test
 
-
-@RunWith(SpringRunner::class)
-@SpringBootTest
 class OpenSubtitlesServiceImplTest {
     @Mock
     private lateinit var xmlRpcClient: XmlRpcClient
